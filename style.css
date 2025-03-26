@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: rgba(0, 0, 77, 0.901);
+  
+}
+
+header{
+  background-color: rgba(3, 14, 82, 0.707);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(113, 161, 246);
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
+}
+
+h2{
+  margin-top: 40px;
+  color: rgb(113, 161, 246);
+  background-color: rgb(30, 30, 133);
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:35px;
+}
+
+
+.card{
+  
+  width: 320px;
+  height: 380px;
+  background-color: #f1f2fea3;
+  border-radius: 12px;
+  font-size: 16px;
+  gap:15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+
+
+.card img{
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+ 
+}
+
+.card div{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+  text-align: center;
+}
+
+footer{
+  margin-top: 25px;
+  width: 100%;
+  height: 45px;
+  background-color: rgba(3, 14, 82, 0.707);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
